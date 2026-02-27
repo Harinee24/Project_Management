@@ -1,0 +1,47 @@
+body {
+  font-family: Arial;
+  background: #f4f5f7;
+}
+
+.container {
+  padding: 20px;
+}
+
+.board {
+  background: white;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.lists {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.list {
+  background: #e2e4e6;
+  padding: 10px;
+  width: 200px;
+  border-radius: 6px;
+  min-height: 150px;
+}
+
+.card {
+  background: white;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 4px;
+  cursor: grab;
+}
+
+button {
+  margin-top: 5px;
+  padding: 5px 8px;
+  border: none;
+  background: #0079bf;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
